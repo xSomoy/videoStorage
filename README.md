@@ -1,7 +1,5 @@
 # Storing data as video in youtube
---- 
-
-
+ 
 ## Concept:
 ```
 All the files are basically 0 and 1.
@@ -19,3 +17,21 @@ And take data from every pixel to re-create the original file.
 > ***`./isg_4real: error while loading shared libraries: libopencv_barcode.so.4.5d: cannot open shared object file: No such file or directory`***
 >
 > Maybe building from source with manually installing dependencies might resolve the issue.
+
+## Additional Resources: 
+> [discord-fs](https://github.com/pixelomer/discord-fs) by [pixelomer](https://github.com/pixelomer) This method uses Discord as file system. 
+>
+> **Youtube Video** : [Harder Drive: Hard drives we didn't want or need](https://www.youtube.com/watch?v=JcJSW7Rprio) by [suckerpinch](https://www.youtube.com/@tom7) 
+
+___
+
+# Plan of action:
+- [ ] **Stage 00:** 
+  - [ ] Get a files **Hex** data
+  - [ ] Get a files **Pure Binary** data.
+  
+- [ ] **Stage 01:**
+  - [ ] Rebuld the original file from **Binary** data. 
+
+- [ ] **Stage 02:**
+  - [ ] TBS.
